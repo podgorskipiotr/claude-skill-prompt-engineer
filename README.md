@@ -38,15 +38,20 @@ Every optimized prompt comes with:
 
 ### In Claude.ai (chat)
 
-No installation needed. Start a conversation and trigger the skill with phrases like:
+**Install:**
 
-- `Optimize this prompt: [paste your prompt]`
-- `Make this prompt better: [paste your prompt]`
-- `Help me write a prompt for [describe your task]`
-- `Rewrite my prompt: [paste your prompt]`
-- `What should I ask the AI to [task]?`
+1. On this page, click the green **Code** button → **Download ZIP**
+2. In Claude.ai, go to **Settings → Customize → Skills**
+3. Click **+** → **Upload a skill** and select the downloaded ZIP file
+4. The skill is now active in your account
 
-The skill also activates when you paste a rough prompt and ask for help — even implicitly.
+**Use:**
+
+```
+/custom-prompt-engineer write me a summary of our competitors
+```
+
+Type `/` in any conversation to see all installed skills in the autocomplete menu.
 
 ### In Claude Code (CLI)
 
